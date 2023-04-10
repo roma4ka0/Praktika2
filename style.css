@@ -526,3 +526,367 @@ font-size: 14px;
 line-height: 142.7%;
 color: #B9B9B9;
 }
+
+.h{
+position: relative;
+width: 1920px;
+height: 2973px;
+background: #FCF0F0;
+}
+
+.polosa-5{
+position: absolute;
+width: 1920px;
+height: 150px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+}
+
+.PomedorBaner{
+position: absolute;
+width: 1920px;
+height: 480px;
+left: 0px;
+top: 150px;
+}
+
+.zagolovok{
+position: absolute;
+width: 827px;
+height: 63px;
+left: 405px;
+top: 653px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 142.7%;
+color: #324950;
+}
+
+.star4{    
+position: absolute;
+width: 47.24px;
+height: 6.24px;
+left: 405px;
+top: 756px;
+background: #57984C;
+}
+
+.mnogo-texta{
+position: absolute;
+width: 1097px;
+height: 290px;
+left: 405px;
+top: 803px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.nemnogo-texta{
+position: absolute;
+width: 1036px;
+height: 54px;
+left: 435.5px;
+top: 1103.5px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.gorezontal{
+position: absolute;
+width: 4px;
+height: 60px;
+left: 400.5px;
+top: 1110.5px;
+background: #EB5757;
+border-radius: 4px;
+}
+
+.linia4{
+position: absolute;
+width: 1250px;
+height: 449.5px;
+left: 385px;
+top: 1203.5px;
+background: #FFFAFA;
+}
+
+.zagolovok1{
+position: absolute;
+width: 350px;
+height: 50px;
+left: 50px;
+top: 37px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+color: #324950;
+}
+
+.zagolovok2{
+position: absolute;
+width: 325px;
+height: 50px;
+left: 450px;
+top: 37px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+color: #324950;
+}
+
+.zagolovok3{
+position: absolute;
+width: 296.21px;
+height: 50px;
+left: 840px;
+top: 37px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+color: #324950;
+}
+
+.cherta1{
+position: absolute;
+width: 350px;
+height: 0px;
+left: 50px;
+top: 85px;
+border: 1px solid #324950;
+}
+
+.cherta2{
+position: absolute;
+width: 325px;
+height: 0px;
+left: 450px;
+top: 85px;
+border: 1px solid #324950;
+}
+
+.cherta3{
+position: absolute;
+width: 350px;
+height: 0px;
+left: 840px;
+top: 85px;
+border: 1px solid #324950;
+}
+
+.text3{
+position: absolute;
+width: 350px;
+height: 212px;
+left: 50px;
+top: 105px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.text4{
+position: absolute;
+width: 350px;
+height: 212px;
+left: 450px;
+top: 105px; 
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 150%;
+color: #324950;    
+}
+
+.text5{
+position: absolute;
+width: 350px;
+height: 262px;
+left: 840px;
+top: 105px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 150%;
+color: #324950;   
+}
+
+.nemnogo-texta2{
+position: absolute;
+width: 700px;
+height: 26px;
+left: 435px;
+top: 1690px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.gorezontal2{
+position: absolute;
+width: 4px;
+height: 40px;
+left: 405px;
+top: 1693px;
+background: #EB5757;
+border-radius: 4px;
+}
+
+.Foto1{
+position: absolute;
+width: 250px;
+height: 321px;
+left: 405px;
+top: 1773px;
+}
+
+
+.Foto2{
+position: absolute;
+width: 250px;
+height: 321px;
+left: 785px;
+top: 1773px;
+}
+
+.Foto3{
+position: absolute;
+width: 250px;
+height: 321px;
+left: 1165px;
+top: 1773px;
+}
+
+.Foto4{
+position: absolute;
+width: 250px;
+height: 321px;
+left: 405px;
+top: 2124px;
+}
+
+.Foto5{
+position: absolute;
+width: 250px;
+height: 321px;
+left: 785px;
+top: 2124px;
+}
+
+.Foto6{
+position: absolute;
+width: 250px;
+height: 321px;
+left: 1165px;
+top: 2124px;
+}
+
+.Foto7{
+position: absolute;
+width: 250px;
+height: 321px;
+left: 405px;
+top: 2475px;
+}
+
+.Foto8{
+position: absolute;
+width: 250px;
+height: 321px;
+left: 785px;
+top: 2475px;
+}
+
+.chortochka1{
+color: #57984C;
+position: absolute;
+width: 250px;
+height: 69px;
+left: 405px;
+top: 2022px; 
+background: #FFFFFF; 
+}
+
+.chortochka2{
+color: #57984C;
+position: absolute;
+width: 250px;
+height: 69px;
+left: 785px;
+top: 2025px;
+background: #FFFFFF;
+}
+
+.chortochka3{
+color: #57984C;
+position: absolute;
+width: 250px;
+height: 69px;
+left: 1165px;
+top: 2007px; 
+background: #FFFFFF;  
+}
+
+.chortochka4{
+color: #57984C;
+position: absolute;
+width: 250px;
+height: 69px;
+left: 785px;
+top: 2376px;   
+background: #FFFFFF;   
+}
+
+.chortochka5{
+color: #57984C;
+position: absolute;
+width: 250px;
+height: 69px;
+left: 405px;
+top: 2727px; 
+background: #FFFFFF;   
+}
+
+.chortochka6{
+color: #57984C;
+position: absolute;
+width: 250px;
+height: 69px;
+left: 785px;
+top: 2707px;  
+background: #FFFFFF;   
+}
+
+.polosa-6{
+position: absolute;
+width: 1920px;
+height: 127px;
+left: 0px;
+top: 2900px; 
+background: #324950;
+}
