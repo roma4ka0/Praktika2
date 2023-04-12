@@ -19,13 +19,18 @@ mix-blend-mode: darken;
 }
 
 .logo-text{
-color: #735440;
 position: absolute;
-display: flex; 
-align-items: center; 
-height: 800px;
-left: 750px;
-margin: auto;
+width: 804px;
+height: 68px;
+left: 558px;
+top: 362px;    
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 142.7%;
+text-align: center;  
+color: #735440;
 }
 
 .logo{
@@ -1217,4 +1222,398 @@ background: #324950;
 
 .h1{
 background: #e9e9e9;
+}
+
+.Logo2{
+position: absolute;
+width: 1920px;
+height: 480px;
+left: 0px;
+top: 122px;
+}
+
+.zagolovok12{
+position: absolute;
+width: 221px;
+height: 63px;
+left: 405px;
+top: 653px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 142.7%;
+color: #324950;
+}
+
+.star6{
+position: absolute;
+width: 47.24px;
+height: 6.24px;
+left: 405px;
+top: 756px;
+background: #57984C;
+}
+
+.Name{
+position: absolute;
+width: 60px;
+height: 26px;
+left: 405px;
+top: 812.5px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.input1{
+box-sizing: border-box;
+position: absolute;
+width: 250px;
+height: 35px;
+left: 405px;
+top: 849px;
+background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 10px;
+}
+
+.CompanyName{
+position: absolute;
+width: 129px;
+height: 26px;
+left: 405px;
+top: 924px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.input2{
+box-sizing: border-box;
+position: absolute;
+width: 251px;
+height: 35px;
+left: 405px;
+top: 960.78px;
+background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 10px;
+}
+
+.Position{
+position: absolute;
+width: 66px;
+height: 26px;
+left: 405px;
+top: 1036px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.input3{
+box-sizing: border-box;
+position: absolute;
+width: 250px;
+height: 35px;
+left: 405px;
+top: 1072.5px;
+background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 10px;
+}
+
+.City{
+position: absolute;
+width: 33px;
+height: 26px;
+left: 405px;
+top: 1147.75px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.input4{
+box-sizing: border-box;
+position: absolute;
+width: 250px;
+height: 35px;
+left: 405px;
+top: 1184.25px;
+background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 10px;
+}
+
+.Country{
+position: absolute;
+width: 65px;
+height: 26px;
+left: 405px;
+top: 1260px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.input5{
+box-sizing: border-box;
+position: absolute;
+width: 251px;
+height: 35px;
+left: 405px;
+top: 1296.5px;
+background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 10px;
+}
+
+.Telephone{
+position: absolute;
+width: 84px;
+height: 26px;
+left: 405px;
+top: 1371.75px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.input6{
+box-sizing: border-box;
+position: absolute;
+width: 251px;
+height: 35px;
+left: 405px;
+top: 1408.25px;
+background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 10px;
+}
+
+.Email{
+position: absolute;
+width: 60px;
+height: 26px;
+left: 405px;
+top: 1484px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.input7{
+box-sizing: border-box;
+position: absolute;
+width: 250px;
+height: 35px;
+left: 405px;
+top: 1520.5px;
+background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 10px;
+}
+
+.You-are-a{
+position: absolute;
+width: 74px;
+height: 26px;
+left: 880px;
+top: 812.5px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.input8{
+box-sizing: border-box;
+position: absolute;
+width: 250px;
+height: 35px;
+left: 880px;
+top: 849px;
+background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 10px;
+}
+
+.If-other-please-specify{
+position: absolute;
+width: 178px;
+height: 26px;
+left: 880px;
+top: 924.81px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.input9{
+box-sizing: border-box;
+position: absolute;
+width: 250px;
+height: 35px;
+left: 880px;
+top: 960.78px;
+background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 10px;
+}
+
+.You-are-interested-in{
+position: absolute;
+width: 166px;
+height: 26px;
+left: 880px;
+top: 1036px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.input10{
+box-sizing: border-box;
+position: absolute;
+width: 633.9px;
+height: 390.75px;
+left: 880px;
+top: 1072.5px;
+background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 10px;
+}
+
+.Please-type-this-code{
+position: absolute;
+width: 168px;
+height: 26px;
+left: 880px;
+top: 1484px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.code{
+position: absolute;
+width: 99px;
+height: 27px;
+left: 880px;
+top: 1534.5px;
+background: url(image.png);
+mix-blend-mode: multiply;
+}
+
+.input11{
+box-sizing: border-box;
+position: absolute;
+width: 225px;
+height: 45px;
+left: 1005px;
+top: 1520.5px;
+background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 10px;
+}
+
+.SendMessage{
+color:#FCF0F0;
+position: absolute;
+width: 255px;
+height: 55px;
+left: 1260px;
+top: 1520.5px;
+background: #57984C;
+border-radius: 60px;
+}
+
+.polosa-7{
+position: absolute;
+width: 1920px;
+height: 250px;
+left: -0.5px;
+top: 1626px;  
+background: #FFFFFF;
+}
+
+.polosa-8{
+position: absolute;
+width: 1920px;
+height: 127px;
+left: 0px;
+top: 1900px; 
+background: #324950;
+}
+
+.Our{
+position: absolute;
+width: 118px;
+height: 29px;
+left: 900.5px;
+top: 35px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+color: #57984C;
+}
+
+.Liniy5{
+position: absolute;
+width: 183px;
+height: 0px;
+left: 868px;
+top: 90px;
+border: 1px solid #57984C;
+}
+
+.text12{
+position: absolute;
+width: 288px;
+height: 104px;
+left: 815.5px;
+top: 80px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+text-align: center;
+color: #324950;
 }
