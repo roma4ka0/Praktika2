@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Document</title>
     <script defer src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
-    <script defer src="js\main.js"></script>
+    <script defer src="js/main.js"></script>
 </head>
 <body >
 <header class="wrapper">
@@ -37,11 +37,11 @@
 <img src="img\strelca.svg">
 <p>Return to all tomatoes</p>
 </aside>
-<main class="wrapperTwo bg-color-tomatoOne bg-image-tomato">
+<main class="wrapperTwo bg-color-tomatoOne bg-image-tomato" id="app">
 <section class="main-tomatoOne-description">
 <div>
-<h2>TAG 1002 (TAG 809)</h2>
-<h2>Tomato Determinate Red Standard Round</h2>
+<h2>{{product.title}}</h2>
+<h2>{{product.text}}</h2>
 <p>*****</p>
 <section class="lotoTomato-txt">
 <img src="img\pomedoru\pomedorZnachok.svg">
@@ -50,9 +50,7 @@
 <section class="description-container">
 <h3>CHARACTERISTICS</h3>
 <div class="bandTomatoOne"></div>
-<p>Resistance</p>
-<p>HR: ToMV:0-2; Fol: 1,2; Ve/Vd;</p>
-<p>IR: TYLCV</p>
+<p>{{product.desc}}</p>
 </section>
 <section class="description-ul-container">
 <h3>Plant</h3>
@@ -80,18 +78,15 @@ grams.</span></li>
 </ul>
 </section>
 </div>
-
 <section class="wrap">
-<img :src="'./img/Lemons/'+product.image">
+<img :src="'img/Lemons/'+product.image">
 <div class="containPDFButton">
-<a href="#" class="ButtonPDF" v-if="!btnVisible" @click.prevent="addToCart(product.id)">
-<img src="img\fael.svg">
-<p>Add to Cart</p>
-</a>
+<a href="#" class="ButtonPDF" v-if="!btnVisible" @click.prevent="addToLemn(product.id)">
+<img src="img\fael.svg" alt="">
+<p>Add to Cart</p></a>
 <a href="index4.html" class="ButtonPDF" v-if="btnVisible">
 <img src="img\fael.svg">
-<p>Go to Cart</p>
-</a>
+<p>Go to Cart</p></a>
 </div>
 <section class="description-ul-container">
 <h3>Cycle</h3>

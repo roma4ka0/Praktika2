@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./style.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
-    <script defer src="js\main.js"></script>
     <title>Document</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
+    <script defer src="js/main.js"></script>
 </head>
 <body>
 <header class="wrapper">
@@ -34,7 +34,7 @@
 </nav>
 </header>
 <img class="BannerContactUs" src="img\logo.svg">
-<main class="ContactMain wrapperTwo">
+<main class="ContactMain wrapperTwo" id="app">
 <h1>Contact us</h1>
 <p>*****</p>
 <table v-if="lemn!=''" class="ContactTable">
@@ -44,11 +44,11 @@
 <th>Description</th>
 <th>Options</th>
 </tr>
-<tr v-for="c in lemn">
-<td><img class="ImgTableContact" :src="'assets/img/Carrots/'+c.image"></td>
-<td>{{c.title}}</td>
-<td>{{c.desc}}</td>
-<td><a href="#" @click.prevent="removeFromLemn(c.id)">X</a></td>
+<tr v-for="l in lemn">
+<td><img class="ImgTableContact" :src="'img/Lemons/'+l.image"></td>
+<td>{{l.title}}</td>
+<td>{{l.desc}}</td>
+<td><a href="#" @click.prevent="removeFromLemn(l.id)">X</a></td>
 </tr>
 </table>
 <form action="index4.html" @submit.prevent="makeOrder()" v-if="order==0" class="ContactMainFormContainer">
