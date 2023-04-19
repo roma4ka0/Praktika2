@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Document</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
+    <script defer src="js\main.js"></script>
 </head>
 <body >
 <header class="wrapper">
@@ -32,7 +34,7 @@
 </nav>
 </header>
 <aside class="return-header wrapperTwo bg-color-tomatoOne">
-<img src="img\Liniy\strelca.svg">
+<img src="img\strelca.svg">
 <p>Return to all tomatoes</p>
 </aside>
 <main class="wrapperTwo bg-color-tomatoOne bg-image-tomato">
@@ -78,12 +80,17 @@ grams.</span></li>
 </ul>
 </section>
 </div>
+
 <section class="wrap">
-<img src="img\pomedoru\pomedor3.svg">
+<img :src="'./img/Lemons/'+product.image">
 <div class="containPDFButton">
-<a class="ButtonPDF">
+<a href="#" class="ButtonPDF" v-if="!btnVisible" @click.prevent="addToCart(product.id)">
 <img src="img\fael.svg">
-<p>DownloadPDF</p>
+<p>Add to Cart</p>
+</a>
+<a href="index4.html" class="ButtonPDF" v-if="btnVisible">
+<img src="img\fael.svg">
+<p>Go to Cart</p>
 </a>
 </div>
 <section class="description-ul-container">
